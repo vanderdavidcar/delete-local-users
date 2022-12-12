@@ -18,6 +18,7 @@ To protect credentials leaking, create a .env file with variables that will be u
 A modulo imported in files ".py" which needed a credentials to connect on devices.
 
 ## remove_users.py
-1 - Show all users in devices and check if usernames are in variable list "users".<br/>
+1 - Change the usernames that needed stay on devices in line 9 of the code.
+2 - Show all users in devices and check if usernames are in variable list "users".<br/>
 2 - Split all usernames, if is not match in variable list "users", then create a new_list with users..<br/>
 3 - Send command to remove all usernames in variable new_list, after removed show the usernames in each devices.<br/>
